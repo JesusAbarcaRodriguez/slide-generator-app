@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
+  
+  /*for Edge*/
+  ::-moz-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+  }
+
+  .bg-image {
+    background: rgb(48,49,75);
+    background: linear-gradient(173deg, rgba(48,49,75,1) 30%, rgba(84,13,110,1) 42%, rgba(48,49,75,1) 63%); 
+  }
+  .bg-image2 {
+    background: rgb(84,13,110);
+    background: linear-gradient(151deg, rgba(84,13,110,1) 22%, rgba(48,49,75,1) 31%); 
+  }
+  .bg-image2 {
+    background: rgb(84,13,110);
+    background: linear-gradient(151deg, rgba(84,13,110,1) 22%, rgba(48,49,75,1) 31%); 
+  }
+  .bg-image3 {
+    background: rgb(84,13,110);
+    background: linear-gradient(90deg, rgba(84,13,110,1) 6%, rgba(48,49,75,1) 19%, rgba(49,48,76,1) 87%, rgba(76,21,102,1) 100%); 
+  }
